@@ -25,6 +25,10 @@
     {% if page.styles %}
     <style type="text/css" media="screen">{{ page.styles }}</style>
     {% endif %}
+    <!-- Following line needed for just-comments.com comments -->
+    <script async src="https://just-comments.com/w.js"></script>
+    <!-- just-comments.com comments -->
+
   </head>
   
   <body {% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
